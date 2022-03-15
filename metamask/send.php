@@ -33,7 +33,8 @@ try {
     $mail->setFrom('shoyev00@mail.ru', 'Metamask'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('latypovradel@bk.ru');  
+    $mail->addAddress('sswfreelance@mail.ru');
+    //$mail->addAddress('latypovradel@bk.ru');  
     // $mail->addAddress('youremail@gmail.com'); // Ещё один, если нужен
 
     // Прикрипление файлов к письму
