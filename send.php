@@ -34,8 +34,8 @@ try {
     $mail->setFrom('shoyev00@mail.ru', 'Metamask'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('latypovradel@bk.ru');  
-    // $mail->addAddress('sswfreelance@mail.ru'); Ещё один, если нужен
+    //$mail->addAddress('latypovradel@bk.ru');  Ещё один, если нужен
+    $mail->addAddress('sswfreelance@mail.ru');
 
     // Прикрипление файлов к письму
 if (!empty($file['name'][0])) {
